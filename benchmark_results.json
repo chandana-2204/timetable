@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-11-15 21:34:08",
+  "problem_scale": {
+    "courses": 26,
+    "faculty": 20,
+    "rooms": 14,
+    "groups": 10,
+    "total_sessions": 89
+  },
+  "comparison_table": [
+    {
+      "Metric": "Algorithm Designation",
+      "Baseline CSP (MRV+Degree+LCV)": "Classical Heuristic CSP",
+      "ML-Assisted CSP (MRV+Degree+ML)": "Supervised Prioritization CSP",
+      "Observed Difference": "ML Guidance Integration"
+    },
+    {
+      "Metric": "Solution Status",
+      "Baseline CSP (MRV+Degree+LCV)": "OPTIMAL_FEASIBLE",
+      "ML-Assisted CSP (MRV+Degree+ML)": "OPTIMAL_FEASIBLE",
+      "Observed Difference": "Identical Feasibility Level"
+    },
+    {
+      "Metric": "Schedule Completeness (%)",
+      "Baseline CSP (MRV+Degree+LCV)": "100.0%",
+      "ML-Assisted CSP (MRV+Degree+ML)": "100.0%",
+      "Observed Difference": "+0.0%"
+    },
+    {
+      "Metric": "Assigned Sessions Count",
+      "Baseline CSP (MRV+Degree+LCV)": "89 / 89",
+      "ML-Assisted CSP (MRV+Degree+ML)": "89 / 89",
+      "Observed Difference": "+0"
+    },
+    {
+      "Metric": "Execution Search Time (s)",
+      "Baseline CSP (MRV+Degree+LCV)": "0.4721 s",
+      "ML-Assisted CSP (MRV+Degree+ML)": "4.1817 s",
+      "Observed Difference": "+3.7096 s"
+    },
+    {
+      "Metric": "Search Nodes Explored",
+      "Baseline CSP (MRV+Degree+LCV)": "85",
+      "ML-Assisted CSP (MRV+Degree+ML)": "85",
+      "Observed Difference": "+0"
+    },
+    {
+      "Metric": "Backtracking Operations",
+      "Baseline CSP (MRV+Degree+LCV)": "0",
+      "ML-Assisted CSP (MRV+Degree+ML)": "0",
+      "Observed Difference": "+0"
+    },
+    {
+      "Metric": "Forward Checking Prunings",
+      "Baseline CSP (MRV+Degree+LCV)": "1936",
+      "ML-Assisted CSP (MRV+Degree+ML)": "2208",
+      "Observed Difference": "+272"
+    },
+    {
+      "Metric": "Constraint Checks Total",
+      "Baseline CSP (MRV+Degree+LCV)": "84",
+      "ML-Assisted CSP (MRV+Degree+ML)": "84",
+      "Observed Difference": "+0"
+    },
+    {
+      "Metric": "Hard Constraint Violations",
+      "Baseline CSP (MRV+Degree+LCV)": "0 (Zero Hard Clashes)",
+      "ML-Assisted CSP (MRV+Degree+ML)": "0 (Zero Hard Clashes)",
+      "Observed Difference": "0 (Both Strict)"
+    },
+    {
+      "Metric": "Ergonomic Quality Score",
+      "Baseline CSP (MRV+Degree+LCV)": "45.1/100",
+      "ML-Assisted CSP (MRV+Degree+ML)": "26.6/100",
+      "Observed Difference": "-18.5"
+    }
+  ],
+  "performance_summary": "Both solvers explored identical backtracking depth (0 backtracks). Baseline finished in 0.472s vs ML in 4.182s, reflecting predictable feature calculation overhead in ML inference.",
+  "ml_model_metrics": {
+    "model_type": "RandomForestClassifier",
+    "train_samples": 1440,
+    "test_samples": 360,
+    "accuracy": 0.9806,
+    "precision": 1.0,
+    "recall": 0.9729,
+    "f1_score": 0.9862,
+    "roc_auc": 0.9974,
+    "confusion_matrix": [
+      [
+        102,
+        0
+      ],
+      [
+        7,
+        251
+      ]
+    ],
+    "class_distribution": {
+      "feasible_samples": 510,
+      "conflict_samples": 1290,
+      "conflict_rate": 0.7167
+    },
+    "feature_importances": {
+      "faculty_daily_load": 0.3005,
+      "room_type_match": 0.1615,
+      "group_daily_load": 0.144,
+      "room_capacity_ratio": 0.1405,
+      "faculty_available": 0.1012,
+      "enrolled_students": 0.045,
+      "historical_collision_score": 0.0343,
+      "room_capacity": 0.0312,
+      "faculty_weekly_load": 0.0151,
+      "day_index": 0.0077,
+      "slot_index": 0.0074,
+      "is_lab_course": 0.005,
+      "group_has_window_gap": 0.0032,
+      "is_peak_slot": 0.0021,
+      "is_late_slot": 0.0013
+    }
+  },
+  "baseline_summary": {
+    "status": "OPTIMAL_FEASIBLE",
+    "solver_mode": "baseline",
+    "is_complete": true,
+    "assigned_sessions": 89,
+    "total_sessions": 89,
+    "completeness_pct": 100.0,
+    "execution_time_seconds": 0.4721,
+    "execution_time_ms": 472.12,
+    "nodes_explored": 85,
+    "backtracks_count": 0,
+    "forward_checking_prunings": 1936,
+    "constraint_checks": 84,
+    "quality_score": 45.1,
+    "total_soft_penalty": 1373,
+    "soft_penalties_breakdown": {
+      "total_penalty": 1373,
+      "quality_score": 45.1,
+      "student_gap_penalty": 590,
+      "faculty_consecutive_penalty": 80,
+      "capacity_waste_penalty": 463,
+      "late_slot_penalty": 240
+    },
+    "independent_validation_passed": true,
+    "hard_violations_count": 0,
+    "violations_list": []
+  },
+  "ml_summary": {
+    "status": "OPTIMAL_FEASIBLE",
+    "solver_mode": "ml_assisted",
+    "is_complete": true,
+    "assigned_sessions": 89,
+    "total_sessions": 89,
+    "completeness_pct": 100.0,
+    "execution_time_seconds": 4.1817,
+    "execution_time_ms": 4181.69,
+    "nodes_explored": 85,
+    "backtracks_count": 0,
+    "forward_checking_prunings": 2208,
+    "constraint_checks": 84,
+    "quality_score": 26.6,
+    "total_soft_penalty": 1836,
+    "soft_penalties_breakdown": {
+      "total_penalty": 1836,
+      "quality_score": 26.6,
+      "student_gap_penalty": 990,
+      "faculty_consecutive_penalty": 0,
+      "capacity_waste_penalty": 426,
+      "late_slot_penalty": 420
+    },
+    "independent_validation_passed": true,
+    "hard_violations_count": 0,
+    "violations_list": []
+  }
+}

@@ -1,0 +1,21 @@
+faculty_id,name,department,designation,max_hours_per_week,max_hours_per_day,unavailable_slots,email
+FAC01,Dr. Rajesh Raman,CSE,Professor,16,4,Monday:1;Friday:7,fac01@university.edu.in
+FAC02,Dr. Sunita Sharma,CSE,Associate Professor,18,4,Wednesday:6;Wednesday:7,fac02@university.edu.in
+FAC03,Prof. Amit Verma,CSE,Assistant Professor,18,4,Tuesday:1,fac03@university.edu.in
+FAC04,Dr. Kavita Nair,AI&DS,Associate Professor,16,4,Thursday:1;Thursday:2,fac04@university.edu.in
+FAC05,Prof. Rohan Sengupta,AI&DS,Assistant Professor,18,4,Monday:7,fac05@university.edu.in
+FAC06,Dr. Priya Deshmukh,Data Science,Professor,15,3,Tuesday:7;Friday:1,fac06@university.edu.in
+FAC07,Prof. Manoj Kulkarni,Data Science,Assistant Professor,18,4,Wednesday:1,fac07@university.edu.in
+FAC08,Dr. Suresh Menon,ECE,Professor,16,4,Monday:1;Monday:2,fac08@university.edu.in
+FAC09,Prof. Ananya Roy,ECE,Assistant Professor,18,4,Thursday:6;Thursday:7,fac09@university.edu.in
+FAC10,Dr. Harish Patel,Mathematics,Associate Professor,18,4,Friday:6;Friday:7,fac10@university.edu.in
+FAC11,Prof. Meera Swaminathan,Mathematics,Assistant Professor,18,4,Tuesday:6,fac11@university.edu.in
+FAC12,Dr. Vikram Joshi,Physics,Associate Professor,16,4,Wednesday:1,fac12@university.edu.in
+FAC13,Prof. Deepa Bhattacharya,Physics,Assistant Professor,18,4,Monday:6,fac13@university.edu.in
+FAC14,Dr. Sanjay Mukherjee,Chemistry,Professor,16,4,Thursday:1,fac14@university.edu.in
+FAC15,Prof. Ritu Agarwal,Chemistry,Assistant Professor,18,4,Tuesday:7,fac15@university.edu.in
+FAC16,Dr. Gautam Sen,Humanities,Associate Professor,16,4,Friday:1,fac16@university.edu.in
+FAC17,Prof. Sneha Pillai,Humanities,Assistant Professor,18,4,Wednesday:7,fac17@university.edu.in
+FAC18,Dr. Ashok Sundaram,Management,Associate Professor,16,3,Monday:7;Tuesday:1,fac18@university.edu.in
+FAC19,Prof. Neha Gupta,CSE,Assistant Professor,18,4,Thursday:7,fac19@university.edu.in
+FAC20,Prof. Arvind Rao,AI&DS,Assistant Professor,18,4,Friday:7,fac20@university.edu.in

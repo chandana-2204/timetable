@@ -1,0 +1,90 @@
+variable_id,curriculum_id,course_id,course_name,group_id,group_name,faculty_id,faculty_name,session_number,day,slot_id,time_label,room_id,room_name,room_type,enrolled_strength,room_capacity,is_fixed
+CUR_01_S1,CUR_01,CS101,Programming Fundamentals,GRP_CSE_A,B.Tech CSE - Section A,FAC01,Dr. Rajesh Raman,1,Monday,2,Slot 2,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,55,120,True
+CUR_01_S2,CUR_01,CS101,Programming Fundamentals,GRP_CSE_A,B.Tech CSE - Section A,FAC01,Dr. Rajesh Raman,2,Wednesday,1,Slot 1,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,55,120,False
+CUR_01_S3,CUR_01,CS101,Programming Fundamentals,GRP_CSE_A,B.Tech CSE - Section A,FAC01,Dr. Rajesh Raman,3,Friday,1,Slot 1,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,55,120,False
+CUR_02_S1,CUR_02,CS102,Programming Laboratory,GRP_CSE_A,B.Tech CSE - Section A,FAC03,Prof. Amit Verma,1,Thursday,1,Slot 1,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,55,60,False
+CUR_02_S2,CUR_02,CS102,Programming Laboratory,GRP_CSE_A,B.Tech CSE - Section A,FAC03,Prof. Amit Verma,2,Monday,4,Slot 4,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,55,60,False
+CUR_03_S1,CUR_03,MA101,Linear Algebra & Calculus,GRP_CSE_A,B.Tech CSE - Section A,FAC10,Dr. Harish Patel,1,Monday,1,Slot 1,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,55,100,False
+CUR_03_S2,CUR_03,MA101,Linear Algebra & Calculus,GRP_CSE_A,B.Tech CSE - Section A,FAC10,Dr. Harish Patel,2,Wednesday,7,Slot 7,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,55,120,False
+CUR_03_S3,CUR_03,MA101,Linear Algebra & Calculus,GRP_CSE_A,B.Tech CSE - Section A,FAC10,Dr. Harish Patel,3,Tuesday,1,Slot 1,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,55,120,False
+CUR_04_S1,CUR_04,PH101,Applied Physics for Engineers,GRP_CSE_A,B.Tech CSE - Section A,FAC12,Dr. Vikram Joshi,1,Monday,7,Slot 7,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_04_S2,CUR_04,PH101,Applied Physics for Engineers,GRP_CSE_A,B.Tech CSE - Section A,FAC12,Dr. Vikram Joshi,2,Thursday,6,Slot 6,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_05_S1,CUR_05,PH102,Applied Physics Laboratory,GRP_CSE_A,B.Tech CSE - Section A,FAC13,Prof. Deepa Bhattacharya,1,Tuesday,6,Slot 6,ROOM_SL501,Applied Physics Laboratory,ScienceLab,55,60,False
+CUR_05_S2,CUR_05,PH102,Applied Physics Laboratory,GRP_CSE_A,B.Tech CSE - Section A,FAC13,Prof. Deepa Bhattacharya,2,Monday,3,Slot 3,ROOM_SL501,Applied Physics Laboratory,ScienceLab,55,60,False
+CUR_06_S1,CUR_06,NEP_MDC01,Digital Humanities & Culture,GRP_CSE_A,B.Tech CSE - Section A,FAC16,Dr. Gautam Sen,1,Thursday,7,Slot 7,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_06_S2,CUR_06,NEP_MDC01,Digital Humanities & Culture,GRP_CSE_A,B.Tech CSE - Section A,FAC16,Dr. Gautam Sen,2,Monday,5,Slot 5,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_07_S1,CUR_07,EN101,Technical Communication & Writing,GRP_CSE_A,B.Tech CSE - Section A,FAC17,Prof. Sneha Pillai,1,Tuesday,7,Slot 7,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_07_S2,CUR_07,EN101,Technical Communication & Writing,GRP_CSE_A,B.Tech CSE - Section A,FAC17,Prof. Sneha Pillai,2,Monday,6,Slot 6,ROOM_CR201,Classroom 201,Classroom,55,65,False
+CUR_08_S1,CUR_08,CS101,Programming Fundamentals,GRP_CSE_B,B.Tech CSE - Section B,FAC02,Dr. Sunita Sharma,1,Tuesday,6,Slot 6,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,52,120,False
+CUR_08_S2,CUR_08,CS101,Programming Fundamentals,GRP_CSE_B,B.Tech CSE - Section B,FAC02,Dr. Sunita Sharma,2,Thursday,1,Slot 1,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,52,120,False
+CUR_08_S3,CUR_08,CS101,Programming Fundamentals,GRP_CSE_B,B.Tech CSE - Section B,FAC02,Dr. Sunita Sharma,3,Friday,1,Slot 1,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,52,100,False
+CUR_09_S1,CUR_09,CS102,Programming Laboratory,GRP_CSE_B,B.Tech CSE - Section B,FAC19,Prof. Neha Gupta,1,Monday,3,Slot 3,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,52,60,False
+CUR_09_S2,CUR_09,CS102,Programming Laboratory,GRP_CSE_B,B.Tech CSE - Section B,FAC19,Prof. Neha Gupta,2,Monday,4,Slot 4,ROOM_CL302,Ada Lovelace Computing Lab,ComputerLab,52,60,False
+CUR_10_S1,CUR_10,MA101,Linear Algebra & Calculus,GRP_CSE_B,B.Tech CSE - Section B,FAC11,Prof. Meera Swaminathan,1,Tuesday,7,Slot 7,ROOM_CR202,Classroom 202,Classroom,52,60,False
+CUR_10_S2,CUR_10,MA101,Linear Algebra & Calculus,GRP_CSE_B,B.Tech CSE - Section B,FAC11,Prof. Meera Swaminathan,2,Monday,5,Slot 5,ROOM_CR202,Classroom 202,Classroom,52,60,False
+CUR_10_S3,CUR_10,MA101,Linear Algebra & Calculus,GRP_CSE_B,B.Tech CSE - Section B,FAC11,Prof. Meera Swaminathan,3,Wednesday,1,Slot 1,ROOM_CR201,Classroom 201,Classroom,52,65,False
+CUR_11_S1,CUR_11,CY101,Environmental Chemistry,GRP_CSE_B,B.Tech CSE - Section B,FAC14,Dr. Sanjay Mukherjee,1,Monday,7,Slot 7,ROOM_CR202,Classroom 202,Classroom,52,60,False
+CUR_11_S2,CUR_11,CY101,Environmental Chemistry,GRP_CSE_B,B.Tech CSE - Section B,FAC14,Dr. Sanjay Mukherjee,2,Tuesday,2,Slot 2,ROOM_CR201,Classroom 201,Classroom,52,65,False
+CUR_12_S1,CUR_12,CY102,Chemical Analysis Laboratory,GRP_CSE_B,B.Tech CSE - Section B,FAC15,Prof. Ritu Agarwal,1,Monday,1,Slot 1,ROOM_SL501,Applied Physics Laboratory,ScienceLab,52,60,False
+CUR_12_S2,CUR_12,CY102,Chemical Analysis Laboratory,GRP_CSE_B,B.Tech CSE - Section B,FAC15,Prof. Ritu Agarwal,2,Wednesday,7,Slot 7,ROOM_SL501,Applied Physics Laboratory,ScienceLab,52,60,False
+CUR_13_S1,CUR_13,NEP_SEC01,Python for Data Visualization,GRP_CSE_B,B.Tech CSE - Section B,FAC03,Prof. Amit Verma,1,Thursday,7,Slot 7,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,52,60,False
+CUR_13_S2,CUR_13,NEP_SEC01,Python for Data Visualization,GRP_CSE_B,B.Tech CSE - Section B,FAC03,Prof. Amit Verma,2,Monday,2,Slot 2,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,52,60,False
+CUR_14_S1,CUR_14,HS101,Professional Ethics & Human Values,GRP_CSE_B,B.Tech CSE - Section B,FAC16,Dr. Gautam Sen,1,Monday,6,Slot 6,ROOM_CR202,Classroom 202,Classroom,52,60,False
+CUR_14_S2,CUR_14,HS101,Professional Ethics & Human Values,GRP_CSE_B,B.Tech CSE - Section B,FAC16,Dr. Gautam Sen,2,Tuesday,1,Slot 1,ROOM_CR201,Classroom 201,Classroom,52,65,False
+CUR_15_S1,CUR_15,AI201,Artificial Intelligence Principles,GRP_AIDS_A,B.Tech AI & Data Science,FAC04,Dr. Kavita Nair,1,Tuesday,3,Slot 3,ROOM_CR201,Classroom 201,Classroom,48,65,True
+CUR_15_S2,CUR_15,AI201,Artificial Intelligence Principles,GRP_AIDS_A,B.Tech AI & Data Science,FAC04,Dr. Kavita Nair,2,Thursday,6,Slot 6,ROOM_CR202,Classroom 202,Classroom,48,60,False
+CUR_15_S3,CUR_15,AI201,Artificial Intelligence Principles,GRP_AIDS_A,B.Tech AI & Data Science,FAC04,Dr. Kavita Nair,3,Friday,6,Slot 6,ROOM_CR201,Classroom 201,Classroom,48,65,False
+CUR_16_S1,CUR_16,AI202,AI & Heuristics Lab,GRP_AIDS_A,B.Tech AI & Data Science,FAC05,Prof. Rohan Sengupta,1,Monday,1,Slot 1,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,48,60,False
+CUR_16_S2,CUR_16,AI202,AI & Heuristics Lab,GRP_AIDS_A,B.Tech AI & Data Science,FAC05,Prof. Rohan Sengupta,2,Monday,2,Slot 2,ROOM_CL302,Ada Lovelace Computing Lab,ComputerLab,48,60,False
+CUR_17_S1,CUR_17,MA201,Discrete Mathematics & Graph Theory,GRP_AIDS_A,B.Tech AI & Data Science,FAC10,Dr. Harish Patel,1,Monday,4,Slot 4,ROOM_CR201,Classroom 201,Classroom,48,65,False
+CUR_17_S2,CUR_17,MA201,Discrete Mathematics & Graph Theory,GRP_AIDS_A,B.Tech AI & Data Science,FAC10,Dr. Harish Patel,2,Tuesday,2,Slot 2,ROOM_CR202,Classroom 202,Classroom,48,60,False
+CUR_17_S3,CUR_17,MA201,Discrete Mathematics & Graph Theory,GRP_AIDS_A,B.Tech AI & Data Science,FAC10,Dr. Harish Patel,3,Wednesday,2,Slot 2,ROOM_CR201,Classroom 201,Classroom,48,65,False
+CUR_18_S1,CUR_18,NEP_SEC02,Cloud Foundations & DevOps,GRP_AIDS_A,B.Tech AI & Data Science,FAC20,Prof. Arvind Rao,1,Wednesday,1,Slot 1,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,48,60,False
+CUR_18_S2,CUR_18,NEP_SEC02,Cloud Foundations & DevOps,GRP_AIDS_A,B.Tech AI & Data Science,FAC20,Prof. Arvind Rao,2,Wednesday,7,Slot 7,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,48,60,False
+CUR_19_S1,CUR_19,HS201,Economics of Technology & Markets,GRP_AIDS_A,B.Tech AI & Data Science,FAC18,Dr. Ashok Sundaram,1,Monday,3,Slot 3,ROOM_CR202,Classroom 202,Classroom,48,60,False
+CUR_19_S2,CUR_19,HS201,Economics of Technology & Markets,GRP_AIDS_A,B.Tech AI & Data Science,FAC18,Dr. Ashok Sundaram,2,Tuesday,6,Slot 6,ROOM_CR202,Classroom 202,Classroom,48,60,False
+CUR_20_S1,CUR_20,CS201,Data Structures & Algorithms,GRP_AIDS_A,B.Tech AI & Data Science,FAC02,Dr. Sunita Sharma,1,Tuesday,1,Slot 1,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,48,100,False
+CUR_20_S2,CUR_20,CS201,Data Structures & Algorithms,GRP_AIDS_A,B.Tech AI & Data Science,FAC02,Dr. Sunita Sharma,2,Friday,7,Slot 7,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,48,120,False
+CUR_20_S3,CUR_20,CS201,Data Structures & Algorithms,GRP_AIDS_A,B.Tech AI & Data Science,FAC02,Dr. Sunita Sharma,3,Monday,7,Slot 7,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,48,120,False
+CUR_21_S1,CUR_21,DS101,Statistical Foundations for DS,GRP_DS_A,B.Sc Data Science & Analytics,FAC06,Dr. Priya Deshmukh,1,Friday,2,Slot 2,ROOM_CR203,Classroom 203,Classroom,42,60,True
+CUR_21_S2,CUR_21,DS101,Statistical Foundations for DS,GRP_DS_A,B.Sc Data Science & Analytics,FAC06,Dr. Priya Deshmukh,2,Monday,5,Slot 5,ROOM_CR203,Classroom 203,Classroom,42,60,False
+CUR_21_S3,CUR_21,DS101,Statistical Foundations for DS,GRP_DS_A,B.Sc Data Science & Analytics,FAC06,Dr. Priya Deshmukh,3,Wednesday,1,Slot 1,ROOM_CR202,Classroom 202,Classroom,42,60,False
+CUR_22_S1,CUR_22,DS102,Data Science Workbench Lab,GRP_DS_A,B.Sc Data Science & Analytics,FAC07,Prof. Manoj Kulkarni,1,Tuesday,6,Slot 6,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,42,60,False
+CUR_22_S2,CUR_22,DS102,Data Science Workbench Lab,GRP_DS_A,B.Sc Data Science & Analytics,FAC07,Prof. Manoj Kulkarni,2,Tuesday,7,Slot 7,ROOM_CL301,Alan Turing Computer Lab,ComputerLab,42,60,False
+CUR_23_S1,CUR_23,MA201,Discrete Mathematics & Graph Theory,GRP_DS_A,B.Sc Data Science & Analytics,FAC11,Prof. Meera Swaminathan,1,Monday,1,Slot 1,ROOM_CR201,Classroom 201,Classroom,42,65,False
+CUR_23_S2,CUR_23,MA201,Discrete Mathematics & Graph Theory,GRP_DS_A,B.Sc Data Science & Analytics,FAC11,Prof. Meera Swaminathan,2,Tuesday,2,Slot 2,ROOM_CR205,Seminar Room 205,Classroom,42,50,False
+CUR_23_S3,CUR_23,MA201,Discrete Mathematics & Graph Theory,GRP_DS_A,B.Sc Data Science & Analytics,FAC11,Prof. Meera Swaminathan,3,Wednesday,3,Slot 3,ROOM_CR201,Classroom 201,Classroom,42,65,False
+CUR_24_S1,CUR_24,NEP_MDC02,Environmental Tech & Sustainability,GRP_DS_A,B.Sc Data Science & Analytics,FAC14,Dr. Sanjay Mukherjee,1,Monday,6,Slot 6,ROOM_CR203,Classroom 203,Classroom,42,60,False
+CUR_24_S2,CUR_24,NEP_MDC02,Environmental Tech & Sustainability,GRP_DS_A,B.Sc Data Science & Analytics,FAC14,Dr. Sanjay Mukherjee,2,Wednesday,7,Slot 7,ROOM_CR201,Classroom 201,Classroom,42,65,False
+CUR_25_S1,CUR_25,EN101,Technical Communication & Writing,GRP_DS_A,B.Sc Data Science & Analytics,FAC17,Prof. Sneha Pillai,1,Monday,2,Slot 2,ROOM_CR202,Classroom 202,Classroom,42,60,False
+CUR_25_S2,CUR_25,EN101,Technical Communication & Writing,GRP_DS_A,B.Sc Data Science & Analytics,FAC17,Prof. Sneha Pillai,2,Tuesday,1,Slot 1,ROOM_CR204,Classroom 204,Classroom,42,55,False
+CUR_26_S1,CUR_26,EC101,Digital Logic & Microcontrollers,GRP_ECE_A,B.Tech ECE - Section A,FAC08,Dr. Suresh Menon,1,Thursday,3,Slot 3,ROOM_CR202,Classroom 202,Classroom,40,60,True
+CUR_26_S2,CUR_26,EC101,Digital Logic & Microcontrollers,GRP_ECE_A,B.Tech ECE - Section A,FAC08,Dr. Suresh Menon,2,Monday,3,Slot 3,ROOM_CR201,Classroom 201,Classroom,40,65,False
+CUR_26_S3,CUR_26,EC101,Digital Logic & Microcontrollers,GRP_ECE_A,B.Tech ECE - Section A,FAC08,Dr. Suresh Menon,3,Tuesday,6,Slot 6,ROOM_CR201,Classroom 201,Classroom,40,65,False
+CUR_27_S1,CUR_27,EC102,Digital Hardware Laboratory,GRP_ECE_A,B.Tech ECE - Section A,FAC09,Prof. Ananya Roy,1,Monday,1,Slot 1,ROOM_EL401,VLSI & Embedded Systems Lab,ElectronicsLab,40,55,False
+CUR_27_S2,CUR_27,EC102,Digital Hardware Laboratory,GRP_ECE_A,B.Tech ECE - Section A,FAC09,Prof. Ananya Roy,2,Monday,7,Slot 7,ROOM_EL401,VLSI & Embedded Systems Lab,ElectronicsLab,40,55,False
+CUR_28_S1,CUR_28,MA101,Linear Algebra & Calculus,GRP_ECE_A,B.Tech ECE - Section A,FAC10,Dr. Harish Patel,1,Monday,2,Slot 2,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,40,100,False
+CUR_28_S2,CUR_28,MA101,Linear Algebra & Calculus,GRP_ECE_A,B.Tech ECE - Section A,FAC10,Dr. Harish Patel,2,Wednesday,1,Slot 1,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,40,100,False
+CUR_28_S3,CUR_28,MA101,Linear Algebra & Calculus,GRP_ECE_A,B.Tech ECE - Section A,FAC10,Dr. Harish Patel,3,Thursday,6,Slot 6,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,40,120,False
+CUR_29_S1,CUR_29,MG101,Entrepreneurship & Innovation,GRP_ECE_A,B.Tech ECE - Section A,FAC18,Dr. Ashok Sundaram,1,Monday,4,Slot 4,ROOM_CR202,Classroom 202,Classroom,40,60,False
+CUR_29_S2,CUR_29,MG101,Entrepreneurship & Innovation,GRP_ECE_A,B.Tech ECE - Section A,FAC18,Dr. Ashok Sundaram,2,Tuesday,2,Slot 2,ROOM_CR204,Classroom 204,Classroom,40,55,False
+CUR_30_S1,CUR_30,PH101,Applied Physics for Engineers,GRP_ECE_A,B.Tech ECE - Section A,FAC12,Dr. Vikram Joshi,1,Monday,5,Slot 5,ROOM_CR204,Classroom 204,Classroom,40,55,False
+CUR_30_S2,CUR_30,PH101,Applied Physics for Engineers,GRP_ECE_A,B.Tech ECE - Section A,FAC12,Dr. Vikram Joshi,2,Tuesday,1,Slot 1,ROOM_CR202,Classroom 202,Classroom,40,60,False
+CUR_31_S1,CUR_31,EC101,Digital Logic & Microcontrollers,GRP_ECE_B,B.Tech ECE - Section B,FAC08,Dr. Suresh Menon,1,Monday,5,Slot 5,ROOM_CR205,Seminar Room 205,Classroom,38,50,False
+CUR_31_S2,CUR_31,EC101,Digital Logic & Microcontrollers,GRP_ECE_B,B.Tech ECE - Section B,FAC08,Dr. Suresh Menon,2,Tuesday,7,Slot 7,ROOM_CR203,Classroom 203,Classroom,38,60,False
+CUR_31_S3,CUR_31,EC101,Digital Logic & Microcontrollers,GRP_ECE_B,B.Tech ECE - Section B,FAC08,Dr. Suresh Menon,3,Wednesday,1,Slot 1,ROOM_CR203,Classroom 203,Classroom,38,60,False
+CUR_32_S1,CUR_32,EC102,Digital Hardware Laboratory,GRP_ECE_B,B.Tech ECE - Section B,FAC09,Prof. Ananya Roy,1,Monday,2,Slot 2,ROOM_EL401,VLSI & Embedded Systems Lab,ElectronicsLab,38,55,False
+CUR_32_S2,CUR_32,EC102,Digital Hardware Laboratory,GRP_ECE_B,B.Tech ECE - Section B,FAC09,Prof. Ananya Roy,2,Monday,3,Slot 3,ROOM_EL401,VLSI & Embedded Systems Lab,ElectronicsLab,38,55,False
+CUR_33_S1,CUR_33,MA201,Discrete Mathematics & Graph Theory,GRP_ECE_B,B.Tech ECE - Section B,FAC11,Prof. Meera Swaminathan,1,Monday,6,Slot 6,ROOM_CR204,Classroom 204,Classroom,38,55,False
+CUR_33_S2,CUR_33,MA201,Discrete Mathematics & Graph Theory,GRP_ECE_B,B.Tech ECE - Section B,FAC11,Prof. Meera Swaminathan,2,Tuesday,1,Slot 1,ROOM_CR203,Classroom 203,Classroom,38,60,False
+CUR_33_S3,CUR_33,MA201,Discrete Mathematics & Graph Theory,GRP_ECE_B,B.Tech ECE - Section B,FAC11,Prof. Meera Swaminathan,3,Wednesday,2,Slot 2,ROOM_CR202,Classroom 202,Classroom,38,60,False
+CUR_34_S1,CUR_34,NEP_VAC01,Universal Human Values & Constitution,GRP_ECE_B,B.Tech ECE - Section B,FAC16,Dr. Gautam Sen,1,Tuesday,6,Slot 6,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,38,100,False
+CUR_34_S2,CUR_34,NEP_VAC01,Universal Human Values & Constitution,GRP_ECE_B,B.Tech ECE - Section B,FAC16,Dr. Gautam Sen,2,Wednesday,7,Slot 7,ROOM_LH102,Dr. A.P.J. Abdul Kalam Hall,LectureHall,38,100,False
+CUR_35_S1,CUR_35,NEP_MDC01,Digital Humanities & Culture,GRP_MDC_B1,Multidisciplinary Cohort B1 (CSE/ECE),FAC16,Dr. Gautam Sen,1,Monday,2,Slot 2,ROOM_CR201,Classroom 201,Classroom,35,65,False
+CUR_35_S2,CUR_35,NEP_MDC01,Digital Humanities & Culture,GRP_MDC_B1,Multidisciplinary Cohort B1 (CSE/ECE),FAC16,Dr. Gautam Sen,2,Tuesday,2,Slot 2,ROOM_CR203,Classroom 203,Classroom,35,60,False
+CUR_36_S1,CUR_36,NEP_MDC02,Environmental Tech & Sustainability,GRP_MDC_B2,Multidisciplinary Cohort B2 (DS/AI),FAC15,Prof. Ritu Agarwal,1,Monday,2,Slot 2,ROOM_CR203,Classroom 203,Classroom,32,60,False
+CUR_36_S2,CUR_36,NEP_MDC02,Environmental Tech & Sustainability,GRP_MDC_B2,Multidisciplinary Cohort B2 (DS/AI),FAC15,Prof. Ritu Agarwal,2,Tuesday,1,Slot 1,ROOM_CR205,Seminar Room 205,Classroom,32,50,False
+CUR_37_S1,CUR_37,NEP_SEC01,Python for Data Visualization,GRP_SEC_01,Skill Enhancement Cohort Python,FAC03,Prof. Amit Verma,1,Monday,1,Slot 1,ROOM_CL302,Ada Lovelace Computing Lab,ComputerLab,30,60,False
+CUR_37_S2,CUR_37,NEP_SEC01,Python for Data Visualization,GRP_SEC_01,Skill Enhancement Cohort Python,FAC03,Prof. Amit Verma,2,Monday,3,Slot 3,ROOM_CL302,Ada Lovelace Computing Lab,ComputerLab,30,60,False
+CUR_38_S1,CUR_38,NEP_VAC01,Universal Human Values & Constitution,GRP_VAC_01,Value-Added Ethics Cohort,FAC16,Dr. Gautam Sen,1,Wednesday,4,Slot 4,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,28,120,True
+CUR_38_S2,CUR_38,NEP_VAC01,Universal Human Values & Constitution,GRP_VAC_01,Value-Added Ethics Cohort,FAC16,Dr. Gautam Sen,2,Monday,1,Slot 1,ROOM_LH101,Sir C.V. Raman Auditorium,LectureHall,28,120,False
