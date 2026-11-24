@@ -1,6 +1,0 @@
-schedule_id,course_id,group_id,faculty_id,day,slot_id,room_id,reason
-FIXED_01,NEP_VAC01,GRP_VAC_01,FAC16,Wednesday,4,ROOM_LH101,Institutional Ethics Colloquium
-FIXED_02,CS101,GRP_CSE_A,FAC01,Monday,2,ROOM_LH101,Department Keynote Lecture
-FIXED_03,AI201,GRP_AIDS_A,FAC04,Tuesday,3,ROOM_CR201,Industry Guest Lecture Series
-FIXED_04,EC101,GRP_ECE_A,FAC08,Thursday,3,ROOM_CR202,Embedded Systems Seminar
-FIXED_05,DS101,GRP_DS_A,FAC06,Friday,2,ROOM_CR203,Data Science Research Colloquium
